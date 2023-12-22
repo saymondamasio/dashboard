@@ -3,6 +3,7 @@ import {
 	CheckSquare,
 	Cog,
 	Flag,
+	Home,
 	LifeBuoy,
 	Search,
 	SquareStack,
@@ -11,7 +12,6 @@ import {
 
 import { Input } from '../Input'
 import { NavItem } from '../NavItem'
-import Home from '~/app/page'
 import { UsedSpaceWidget } from '../UsedSpaceWidget'
 import { Profile } from '../Profile'
 
