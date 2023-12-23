@@ -33,7 +33,7 @@ dependencies:
 devDependencies:
   '@saymondamasio/eslint-config':
     specifier: ^1.1.1
-    version: 1.1.1(eslint@8.56.0)(tailwindcss@3.3.6)(typescript@5.3.3)
+    version: 1.1.1(eslint@8.56.0)(tailwindcss@3.4.0)(typescript@5.3.3)
   '@types/node':
     specifier: ^20
     version: 20.10.4
@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^8
     version: 8.4.32
   tailwindcss:
-    specifier: ^3.3.0
-    version: 3.3.6
+    specifier: ^3.4.0
+    version: 3.4.0
   typescript:
     specifier: ^5
     version: 5.3.3
@@ -542,7 +542,7 @@ packages:
     resolution: {integrity: sha512-UY+FGM/2jjMkzQLn8pxcHGMaVLh9aEitG3zY2CiY7XHdLiz3bZOwa6oDxNqEMv7zZkV+cj5DOdz0cQ1BP5Hjgw==}
     dev: true
 
-  /@saymondamasio/eslint-config@1.1.1(eslint@8.56.0)(tailwindcss@3.3.6)(typescript@5.3.3):
+  /@saymondamasio/eslint-config@1.1.1(eslint@8.56.0)(tailwindcss@3.4.0)(typescript@5.3.3):
     resolution: {integrity: sha512-Cm/uIaRiWux+fgAz4647TwL8X8PkShAQUwEYtQ5kh7NtL2qPtlQjICspQmxKU5qwqr6TqmxD1qgTmUgvnkCx9g==}
     peerDependencies:
       eslint: ^8.23.1
@@ -563,7 +563,7 @@ packages:
       eslint-plugin-promise: 6.1.1(eslint@8.56.0)
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
-      eslint-plugin-tailwindcss: 3.13.0(tailwindcss@3.3.6)
+      eslint-plugin-tailwindcss: 3.13.0(tailwindcss@3.4.0)
       eslint-plugin-testing-library: 5.11.1(eslint@8.56.0)(typescript@5.3.3)
       prettier: 2.8.8
       typescript: 5.3.3
@@ -1633,7 +1633,7 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.6):
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.4.0):
     resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -1641,7 +1641,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.32
-      tailwindcss: 3.3.6
+      tailwindcss: 3.4.0
     dev: true
 
   /eslint-plugin-testing-library@5.11.1(eslint@8.56.0)(typescript@5.3.3):
@@ -3081,8 +3081,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
