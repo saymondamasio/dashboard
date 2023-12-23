@@ -1,16 +1,18 @@
 'use client'
 
 import { Trash2, UploadCloud } from 'lucide-react'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 import { formatByes } from '~/utils/format-byes'
 
 import { useFileInput } from './Root'
 
 export function FileInputList() {
-	const { files } = useFileInput()
+	const { files, removeFile } = useFileInput()
+	const [parent] = useAutoAnimate()
 
 	return (
-		<div className="mt-4 space-y-3 ">
+		<div className="mt-4 space-y-3 " ref={parent}>
 			{files.map(file => (
 				<div
 					key={file.name}
@@ -36,7 +38,13 @@ export function FileInputList() {
 						</div>
 					</div>
 
-					<button type="button" className="ml-auto rounded-md p-2 hover:bg-zinc-50">
+					<button
+						type="button"
+						className="ml-auto rounded-md p-2 hover:bg-zinc-50"
+						onClick={() => {
+							removeFile(file)
+						}}
+					>
 						<Trash2 className="size-5 text-zinc-500" />
 					</button>
 				</div>
