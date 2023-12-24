@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { LogOut } from 'lucide-react'
 
 import { Button } from './Form/Button'
@@ -17,7 +18,7 @@ export function Profile() {
 				</abbr>
 			</div>
 
-			<Button type="button" variant="ghost">
+			<Button type="button" variant="ghost" className="ml-auto">
 				<LogOut className="h-5 w-5 text-zinc-500" />
 			</Button>
 		</div>
