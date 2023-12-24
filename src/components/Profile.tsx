@@ -9,9 +9,11 @@ export function Profile() {
 			<img className="h-10 w-10 rounded-full" src="https://github.com/saymondamasio.png" alt="" />
 
 			<div className="flex flex-col overflow-hidden">
-				<span className="text-sm font-semibold text-zinc-500">Saymon Damásio</span>
+				<span className="text-sm font-semibold text-zinc-500 dark:text-zinc-100">
+					Saymon Damásio
+				</span>
 				<abbr
-					className="truncate text-sm text-zinc-500 no-underline"
+					className="truncate text-sm text-zinc-500 no-underline dark:text-zinc-400"
 					title="saymon.damasio95@gmail.com"
 				>
 					saymon.damasio95@gmail.com
