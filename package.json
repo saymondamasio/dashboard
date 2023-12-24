@@ -19,7 +19,8 @@
     "pnpm": "^8.12.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-world-flags": "^1.6.0"
+    "react-world-flags": "^1.6.0",
+    "tailwind-variants": "^0.1.19"
   },
   "devDependencies": {
     "@saymondamasio/eslint-config": "^1.1.1",
